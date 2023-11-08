@@ -11,6 +11,11 @@ import vCard10 from '../assets/10.webp'
 import vCard11 from '../assets/11.webp'
 import vCard12 from '../assets/12.webp'
 import vCard13 from '../assets/13.webp'
+import vCard14 from '../assets/14.webp'
+import vCard15 from '../assets/15.webp'
+import vCard16 from '../assets/16.webp'
+import vCard17 from '../assets/17.webp'
+import vCard18 from '../assets/18.webp'
 
 const DUMMY_ARTS = [
     {
@@ -130,7 +135,52 @@ const DUMMY_ARTS = [
         isSold: 0,
         url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/12",
         eds: 5
-    }
+    },
+    {
+        id: 14,
+        title: "No Laws",
+        artist: "gëec",
+        img: vCard14,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/13",
+        eds: 10
+    },
+    {
+        id: 15,
+        title: "Ascention",
+        artist: "gëec",
+        img: vCard15,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/14",
+        eds: 10
+    },
+    {
+        id: 16,
+        title: "Pub gnome",
+        artist: "pollomoolokki",
+        img: vCard16,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/15",
+        eds: 5
+    },
+    {
+        id: 17,
+        title: "The king",
+        artist: "pollomoolokki",
+        img: vCard17,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/16",
+        eds: 5
+    },
+    {
+        id: 18,
+        title: "The jester",
+        artist: "pollomoolokki",
+        img: vCard18,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/17",
+        eds: 15
+    },
   ];
 
   export default DUMMY_ARTS
