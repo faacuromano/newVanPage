@@ -5,11 +5,11 @@
     scale: 0.9;
     overflow: hidden;
     height: auto;
-    aspect-ratio: 5/6.7 ;
+    aspect-ratio: 5/7.3 ;
     position: relative;
     cursor: pointer;
-    background-color: white;
   }
+
   .cardTitle{
     font-size: larger;
     font-weight: 600;
@@ -32,7 +32,7 @@
   }
   
   .container:hover .imagen {
-    transform: translateY(-20%);
+    transform: translateY(-16%);
   }
   .cardBody{
     padding: 2%;
