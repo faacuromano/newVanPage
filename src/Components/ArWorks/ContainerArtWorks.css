@@ -35,9 +35,11 @@ body {
 }
 
 .titelMimimized{
-    color: #BF1A2F;
+    color: #be2035;
     text-align: center;
     padding:  3% 0 1.8% 0;
+    font-family: Mersey;
+    letter-spacing: 3px;
     
 }
 

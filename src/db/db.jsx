@@ -16,6 +16,11 @@ import vCard15 from '../assets/15.webp'
 import vCard16 from '../assets/16.webp'
 import vCard17 from '../assets/17.webp'
 import vCard18 from '../assets/18.webp'
+import vCard19 from '../assets/19.webp'
+import vCard20 from '../assets/20.webp'
+import vCard21 from '../assets/21.webp'
+import vCard22 from '../assets/22.webp'
+import vCard23 from '../assets/23.webp'
 
 const DUMMY_ARTS = [
     {
@@ -180,6 +185,51 @@ const DUMMY_ARTS = [
         isSold: 0,
         url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/17",
         eds: 15
+    },
+    {
+        id: 19,
+        title: "The vanguard goblin",
+        artist: "pollomoolokki",
+        img: vCard19,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/18",
+        eds: 5
+    },
+    {
+        id: 20,
+        title: "The wizard",
+        artist: "pollomoolokki",
+        img: vCard20,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/19",
+        eds: 10
+    },
+    {
+        id: 21,
+        title: "The one",
+        artist: "pollomoolokki",
+        img: vCard21,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/20",
+        eds: 10
+    },
+    {
+        id: 22,
+        title: "Veni Vidi Vici",
+        artist: "MikeyWilson",
+        img: vCard22,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/21",
+        eds: 10
+    },
+    {
+        id: 23,
+        title: "Wilson de la V",
+        artist: "MikeyWilson",
+        img: vCard23,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/22",
+        eds: 10
     },
   ];
 

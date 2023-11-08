@@ -10,7 +10,10 @@
     cursor: pointer;
     background-color: white;
   }
-  
+  .cardTitle{
+    font-size: larger;
+    font-weight: 600;
+  }
   .imagen {
     width: 100%;
     object-fit: cover; /* Ajusta la imagen manteniendo su relación de aspecto y cubriendo todo el espacio disponible */
@@ -21,7 +24,7 @@
     position: absolute;
     bottom: -50%;
     width: 100%;
-    background-color: rgba(45, 45, 45);
+    background-color: rgb(29, 29, 29);
     display: flex;
     flex-direction: column;
     transition: bottom 0.2s;
