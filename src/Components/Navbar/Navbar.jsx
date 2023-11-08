@@ -13,9 +13,9 @@ const Navbar = () => {
             </a>
         </ul>
             <div className="navbar-list">
-                <div className="navbar-item"><a href="/artworks">Artworks</a></div>
-                <div className="navbar-item"><a href="/about">About</a></div>
-                <div className="navbar-item"><a href="/artist">Artist</a></div>
+                <div className="navbar-item"><a href="/#artworks">Artworks</a></div>
+                <div className="navbar-item"><a href="/#about">About</a></div>
+                <div className="navbar-item"><a href="/#artist">Artist</a></div>
             </div>
         </nav>
       </>
