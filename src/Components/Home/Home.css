@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 
-@font-face {
-    font-family: Mersey;
-    src: url('../../../public/MerseyCowboy.otf'),
-}
-
 .home-container{
     display: flex;
     height: 93vh;
