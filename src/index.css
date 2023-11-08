@@ -5,7 +5,7 @@
 }
 @font-face {
   font-family: Mersey;
-  src: url('../../../public/MerseyCowboy.otf'), format('truetype');
+  src: url('./assets/MerseyCowboy.otf'), format('truetype');
   
 }
 :root {
