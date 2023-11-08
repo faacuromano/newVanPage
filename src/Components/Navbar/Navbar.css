@@ -19,15 +19,27 @@
     list-style: none;
     display: flex;
     align-items: center;
-  
 }
 
 .navbar-item {
     display: flex;
     align-items: center;
-    margin: 0 10px;
-    color: white;
+    margin: 0 2rem;
     text-decoration: none;
+    transition: all .2s;
+
+}
+.navbar-item:hover {
+    transition: all .2s;
+    scale: 1.1;
+}
+
+#right-navbar-items{
+    font-size: 2rem;    
+}
+#right-navbar-items:hover{
+    transition: all .2s;
+    scale: 1.2;
 }
 
 .navbar-logo {
@@ -37,6 +49,14 @@
   
 
 @media (max-width:600px) {
+    .navbar{
+        padding: 0;
+        justify-content: center;
+        font-size: x-large;
+    }
+}
+
+@media (max-width:768px) {
     .navbar-list{
         display: none;
     }

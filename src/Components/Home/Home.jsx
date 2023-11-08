@@ -11,13 +11,13 @@ const Home = () => {
             <div className='home-links-container'>
             < div >
                     <button className="button-56" role="button">
-                        <a href='https://objkt.com/' className="text">OBJKT COLLECTION</a>
+                        <a href='https://objkt.com/collection/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ' className="text">OBJKT COLLECTION</a>
                     </button>           
                 </div>
 
                 <div >
                     <button className="button-56" role="button">
-                        <span className="text">VENDING MACHINE</span>
+                        <a href='https://www.vendingnfts.xyz' className="text">VENDING MACHINE</a>
                     </button>           
                 </div>
 
