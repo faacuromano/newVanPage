@@ -14,6 +14,7 @@
     color: rgb(238, 238, 238);
     text-decoration: none;
     font-family: 'Roboto';
+    font-size: 2rem;
 }
 .navbar-list {
     list-style: none;
@@ -24,7 +25,7 @@
 .navbar-item {
     display: flex;
     align-items: center;
-    margin: 0 2rem;
+    margin: 0 1rem;
     text-decoration: none;
     transition: all .2s;
 
@@ -35,7 +36,7 @@
 }
 
 #right-navbar-items{
-    font-size: 2rem;    
+    font-size: 1.2rem;    
 }
 #right-navbar-items:hover{
     transition: all .2s;
