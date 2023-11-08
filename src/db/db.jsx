@@ -124,22 +124,13 @@ const DUMMY_ARTS = [
     },
     {
         id: 13,
-        title: "Chain Slave",
-        artist: "trapers",
-        img: vCard12,
-        isSold: 0,
-        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/11",
-        eds: 5
-    },
-    {
-        id: 14,
         title: "Fatty Frog",
         artist: "trapers",
         img: vCard13,
         isSold: 0,
         url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/12",
         eds: 5
-    },
+    }
   ];
 
   export default DUMMY_ARTS
