@@ -1,0 +1,38 @@
+.container {
+    border-radius: 4px;
+    transition: all 0.2s;
+    border: 2px solid #fdfdfd;
+    scale: 0.9;
+    overflow: hidden;
+    height: auto;
+    aspect-ratio: 2/2.9;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .imagen {
+    width: 100%;
+    object-fit: cover; /* Ajusta la imagen manteniendo su relación de aspecto y cubriendo todo el espacio disponible */
+    transition: transform 0.2s;
+}
+  
+  .overlay {
+    position: absolute;
+    bottom: -50%;
+    width: 100%;
+    background-color: rgba(35, 35, 35, 0.9);
+    display: flex;
+    flex-direction: column;
+    transition: bottom 0.2s;
+  }
+  
+  .container:hover .imagen {
+    transform: translateY(-25%);
+  }
+  .cardBody{
+    padding: 4%;
+  }
+  .container:hover .overlay {
+    bottom: 0;
+  }
+  

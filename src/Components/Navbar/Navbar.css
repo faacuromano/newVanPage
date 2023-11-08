@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,700&display=swap');
+*{ font-family: 'Roboto Flex', sans-serif; }
+
+.navbar {
+    display: flex;
+    height: 7vh;
+    background-color: #7c2c27;
+    justify-content: space-between;
+    padding: 0 4em;
+}
+.title-logo{
+    color: rgb(238, 238, 238);
+    text-decoration: none;
+    font-family: 'Roboto';
+}
+.navbar-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  
+}
+
+.navbar-item {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-logo {
+    display: flex;
+    height: 100%;
+}
+  
+
+@media (max-width:600px) {
+    .navbar-list{
+        display: none;
+    }
+}
+.navbar-item a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.textLogo{
+    display: none;
+}
+
+.logo {
+    height: 100%;
+}
+  
+
+.logo:hover {
+  transition: all .5s;
+  color: #ffffff;
+  transform: rotateZ(-90deg);
+  transform-origin: 50% 50%;
+  scale: 1.1;
+  .textLogo{
+    display: block;
+  }
+}

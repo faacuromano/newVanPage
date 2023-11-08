@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+@font-face {
+    font-family: Mersey;
+    src: url('../../../public/Mersey\ Cowboy.otf'),
+}
+
+.home-container{
+    display: flex;
+    height: 93vh;
+    justify-content: center;
+    align-items: center;
+    background-image: 
+    repeating-radial-gradient( circle at 0 0, transparent 0, #171333 4px ), 
+    repeating-linear-gradient( #00000055, #000000 );
+}
+.text{
+    color: white;
+}
+.image-home-container{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-home{
+    font-family: 'Roboto Mono', monospace;
+    width: 80%;
+    
+}
+.title-home-container{
+    width: 50%;
+}
+.title-home{
+    font-family: Mersey;
+    color: #dbcebf;
+
+}
+.title-home-V{
+    color: #7c2c27;
+    font-family: Mersey;
+    text-align: center;
+}
+
+.button-56 {
+  font-size: 16px;
+  letter-spacing: 2px;
+  background-color: rgb(0, 0, 0);
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #7c2c27;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-56:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (max-width: 768px) {
+.button-56 {
+  padding: 0.55em 1.25em;
+}
+.title-home-container{
+    width: auto;
+    font-size: small;
+}
+.image-home-container{
+    margin-bottom: 3em;
+    width: 60%;
+}
+.image-home{
+    width: 100%;
+}
+.home-container{
+    flex-direction: column-reverse;
+}
+
+.title-home{
+    font-size: xx-large;
+    text-align: center;
+}
+
+.title-home-V{
+    font-size: xx-large;
+}
+.home-links-container{
+    flex-direction: column;
+    align-items: center;
+}
+.button-56{
+    margin: 1em;
+}
+
+}
+
+.home-links-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
