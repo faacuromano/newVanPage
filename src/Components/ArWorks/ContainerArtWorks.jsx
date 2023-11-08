@@ -8,9 +8,12 @@ const ContainerArtWorks = ({ artworks }) => {
       <ArtWorks
         key={artwork.id}
         title={artwork.title}
+        descrip={artwork.descrip}
         img={artwork.img}
         artist={artwork.artist}
         id={artwork.id}
+        eds={artwork.eds}
+        url={artwork.url}
       />
     ));
   

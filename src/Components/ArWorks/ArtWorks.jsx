@@ -1,10 +1,10 @@
 import {  CardBody, CardTitle, CardText } from 'reactstrap';
 import './ArtWorks.css';
 
-const ArtWorks = ({ title, artist, id, img }) => {
+const ArtWorks = ({ title, artist, eds, id, img, url }) => {
   return (
     <div className="container">
-      <div className="card">
+      <a key={id} href={url} className="card">
         <div className="image-container">
 
           <img className="imagen" src={img} alt={title} />
@@ -12,11 +12,11 @@ const ArtWorks = ({ title, artist, id, img }) => {
             <CardBody className="cardBody">
               <CardTitle className="cardTitle">{title}</CardTitle>
               <CardText>Artist: {artist}</CardText>
-              <CardText>Eds: {id}</CardText>
+              <CardText>Eds: {eds}</CardText>
             </CardBody>
           </div>
         </div>
-      </div>
+      </a>
     </div>
   );
 }

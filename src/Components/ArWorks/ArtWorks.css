@@ -1,13 +1,14 @@
 .container {
+    display: flex;
     border-radius: 4px;
     transition: all 0.2s;
-    border: 2px solid #fdfdfd;
     scale: 0.9;
     overflow: hidden;
     height: auto;
-    aspect-ratio: 2/2.9;
+    aspect-ratio: 5/6.7 ;
     position: relative;
     cursor: pointer;
+    background-color: white;
   }
   
   .imagen {
@@ -20,17 +21,18 @@
     position: absolute;
     bottom: -50%;
     width: 100%;
-    background-color: rgba(35, 35, 35, 0.9);
+    background-color: rgba(45, 45, 45);
     display: flex;
     flex-direction: column;
     transition: bottom 0.2s;
+    color: white;
   }
   
   .container:hover .imagen {
-    transform: translateY(-25%);
+    transform: translateY(-20%);
   }
   .cardBody{
-    padding: 4%;
+    padding: 2%;
   }
   .container:hover .overlay {
     bottom: 0;
