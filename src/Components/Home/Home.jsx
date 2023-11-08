@@ -11,7 +11,7 @@ const Home = () => {
             <div className='home-links-container'>
             < div >
                     <button className="button-56" role="button">
-                        <span className="text">OBJKT COLLECTION</span>
+                        <a href='https://objkt.com/' className="text">OBJKT COLLECTION</a>
                     </button>           
                 </div>
 
