@@ -21,6 +21,12 @@ import vCard20 from '../assets/20.webp'
 import vCard21 from '../assets/21.webp'
 import vCard22 from '../assets/22.webp'
 import vCard23 from '../assets/23.webp'
+import vCard24 from '../assets/24.webp'
+import vCard25 from '../assets/25.webp'
+import vCard26 from '../assets/26.webp'
+import vCard27 from '../assets/27.webp'
+import vCard28 from '../assets/28.webp'
+import vCard29 from '../assets/29.webp'
 
 const DUMMY_ARTS = [
     {
@@ -229,6 +235,60 @@ const DUMMY_ARTS = [
         img: vCard23,
         isSold: 0,
         url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/22",
+        eds: 10
+    },
+    {
+        id: 24,
+        title: "Waiting The Vanguard Ship",
+        artist: "Vargguard",
+        img: vCard24,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/23",
+        eds: 15
+    },
+    {
+        id: 25,
+        title: "Zach",
+        artist: "Vargguard",
+        img: vCard25,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/24",
+        eds: 15
+    },
+    {
+        id: 26,
+        title: "Familia on golf",
+        artist: "Vargguard",
+        img: vCard26,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/25",
+        eds: 15
+    },
+    {
+        id: 27,
+        title: "Sage and Dangerous",
+        artist: "KappaSage",
+        img: vCard27,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/26",
+        eds: 10
+    },
+    {
+        id: 28,
+        title: "The World Is V",
+        artist: "KappaSage",
+        img: vCard28,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/27",
+        eds: 10
+    },
+    {
+        id: 29,
+        title: "Young Stars",
+        artist: "KappaSage",
+        img: vCard29,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/28",
         eds: 10
     },
   ];
