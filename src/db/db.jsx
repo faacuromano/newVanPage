@@ -10,6 +10,7 @@ import vCard9 from '../assets/9.webp'
 import vCard10 from '../assets/10.webp'
 import vCard11 from '../assets/11.webp'
 import vCard12 from '../assets/12.webp'
+import vCard13 from '../assets/13.webp'
 
 const DUMMY_ARTS = [
     {
@@ -119,6 +120,24 @@ const DUMMY_ARTS = [
         img: vCard12,
         isSold: 0,
         url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/11",
+        eds: 5
+    },
+    {
+        id: 13,
+        title: "Chain Slave",
+        artist: "trapers",
+        img: vCard12,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/11",
+        eds: 5
+    },
+    {
+        id: 14,
+        title: "Fatty Frog",
+        artist: "trapers",
+        img: vCard13,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/12",
         eds: 5
     },
   ];
