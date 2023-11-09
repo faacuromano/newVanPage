@@ -488,7 +488,7 @@ const DUMMY_ARTS = [
         artist: "Morlacos",
         img: vCard49,
         isSold: 0,
-        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/48",
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/49",
         eds: 5
     },
   ];
