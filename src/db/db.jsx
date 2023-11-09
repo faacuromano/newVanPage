@@ -30,6 +30,23 @@ import vCard29 from '../assets/29.webp'
 import vCard30 from '../assets/30.webp'
 import vCard31 from '../assets/31.webp'
 import vCard32 from '../assets/32.webp'
+import vCard33 from '../assets/33.webp'
+import vCard34 from '../assets/34.webp'
+import vCard35 from '../assets/35.webp'
+import vCard36 from '../assets/36.webp'
+import vCard37 from '../assets/37.webp'
+import vCard38 from '../assets/38.webp'
+import vCard39 from '../assets/39.webp'
+import vCard40 from '../assets/40.webp'
+import vCard41 from '../assets/41.webp'
+import vCard42 from '../assets/42.webp'
+import vCard43 from '../assets/43.webp'
+import vCard44 from '../assets/44.webp'
+import vCard45 from '../assets/45.webp'
+import vCard46 from '../assets/46.webp'
+import vCard47 from '../assets/47.webp'
+import vCard48 from '../assets/48.webp'
+import vCard49 from '../assets/49.webp'
 
 const DUMMY_ARTS = [
     {
@@ -320,6 +337,159 @@ const DUMMY_ARTS = [
         isSold: 0,
         url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/32",
         eds: 10
+    },
+    {
+        id: 33,
+        title: "Abundance",
+        artist: "MOTE.MT",
+        img: vCard33,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/33",
+        eds: 10
+    },
+    {
+        id: 34,
+        title: "Night is coming",
+        artist: "MOTE.MT",
+        img: vCard34,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/34",
+        eds: 10
+    },
+    {
+        id: 35,
+        title: "I Dream of No Hitters",
+        artist: "Ejkew",
+        img: vCard35,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/35",
+        eds: 1
+    },
+    {
+        id: 36,
+        title: "The Aubergine Pimp",
+        artist: "Ejkew",
+        img: vCard36,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/36",
+        eds: 5
+    },
+    {
+        id: 37,
+        title: "Tropical Gangsters",
+        artist: "Ejkew",
+        img: vCard37,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/37",
+        eds: 10
+    },
+    {
+        id: 38,
+        title: "Oh Mama Wembayama Holographic",
+        artist: "Ejkew",
+        img: vCard38,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/38",
+        eds: 5
+    },
+    {
+        id: 39,
+        title: "81 Points",
+        artist: "Ejkew",
+        img: vCard39,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/39",
+        eds: 10
+    },
+    {
+        id: 40,
+        title: "The V of Spades",
+        artist: "Ejkew",
+        img: vCard40,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/40",
+        eds: 10
+    },
+    {
+        id: 41,
+        title: "Venna La Detta",
+        artist: "Wasteman Goldmineovich",
+        img: vCard41,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/41",
+        eds: 10
+    },
+    {
+        id: 42,
+        title: "DriVing Range",
+        artist: "Wasteman Goldmineovich",
+        img: vCard42,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/42",
+        eds: 10
+    },
+    {
+        id: 43,
+        title: "Venry Cooper",
+        artist: "Wasteman Goldmineovich",
+        img: vCard43,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/43",
+        eds: 10
+    },
+    {
+        id: 44,
+        title: "Pepe Di Renzo",
+        artist: "Morlacos",
+        img: vCard44,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/44",
+        eds: 10
+    },
+    {
+        id: 45,
+        title: "Villanos Campeones",
+        artist: "Morlacos - ELOJOENLAFLOR",
+        img: vCard45,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/45",
+        eds: 15
+    },
+    {
+        id: 46,
+        title: "Clown Drugadict Alien",
+        artist: "Morlacos",
+        img: vCard46,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/46",
+        eds: 5
+    },
+    {
+        id: 47,
+        title: "Red Knight of Wastedlands",
+        artist: "Morlacos",
+        img: vCard47,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/47",
+        eds: 10
+    },
+    {
+        id: 48,
+        title: "The Victory of Rockwood",
+        artist: "Morlacos",
+        img: vCard48,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/48",
+        eds: 5
+    },
+    {
+        id: 49,
+        title: "The Momoch Key",
+        artist: "Morlacos",
+        img: vCard49,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/48",
+        eds: 5
     },
   ];
 
