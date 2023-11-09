@@ -16,7 +16,7 @@
   }
   .imagen {
     width: 100%;
-    object-fit: cover; /* Ajusta la imagen manteniendo su relación de aspecto y cubriendo todo el espacio disponible */
+    object-fit: cover; 
     transition: transform 0.2s;
 }
   
@@ -40,4 +40,6 @@
   .container:hover .overlay {
     bottom: 0;
   }
-  
+  .card{
+    width: 100%;
+  }

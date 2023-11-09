@@ -40,7 +40,6 @@ body {
     padding:  3% 0 1.8% 0;
     font-family: Mersey;
     letter-spacing: 3px;
-    
 }
 
 .default-container{
@@ -54,3 +53,21 @@ body {
         grid-template-columns: repeat(auto-fill,minmax(min(100%/1,max(300px,50%/5)),3fr));
     }
 }
+
+@media (max-width: 1300px) {    
+    .titelMimimized{
+      font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 1000px) {    
+    .titelMimimized{
+      font-size: 2rem;
+    }
+}
+
+@media (max-width: 300px) {    
+    .titelMimimized{
+      font-size: 1.5rem;
+    }
+  }
