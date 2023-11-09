@@ -1,7 +1,31 @@
 .about-container{
-    padding: 6rem 18rem 8rem 18rem;
-    height: 69vh;
+    padding: 4vh 6vw;
+    height: 90vh;
 }
 .about-title{
     padding-bottom: 3rem;
+}
+
+@media (max-width: 840px) {
+    .about-title{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .about-title{
+        font-size: 2rem;
+    }
+    .about-description{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .about-title{
+        font-size: 1.5rem;
+    }
+    .about-description{
+        font-size: .8rem;
+    }
 }
