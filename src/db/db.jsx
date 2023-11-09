@@ -27,6 +27,9 @@ import vCard26 from '../assets/26.webp'
 import vCard27 from '../assets/27.webp'
 import vCard28 from '../assets/28.webp'
 import vCard29 from '../assets/29.webp'
+import vCard30 from '../assets/30.webp'
+import vCard31 from '../assets/31.webp'
+import vCard32 from '../assets/32.webp'
 
 const DUMMY_ARTS = [
     {
@@ -289,6 +292,33 @@ const DUMMY_ARTS = [
         img: vCard29,
         isSold: 0,
         url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/28",
+        eds: 10
+    },
+    {
+        id: 30,
+        title: "V Never Dies!",
+        artist: "Jakestudyos",
+        img: vCard30,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/30",
+        eds: 10
+    },
+    {
+        id: 31,
+        title: "Pepe the Nomad: Legend of the Red Waste",
+        artist: "PurpleDrunk",
+        img: vCard31,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/31",
+        eds: 10
+    },
+    {
+        id: 32,
+        title: "Drankweaver",
+        artist: "PurpleDrunk",
+        img: vCard32,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/32",
         eds: 10
     },
   ];
