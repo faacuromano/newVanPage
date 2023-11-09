@@ -159,9 +159,25 @@
         margin: .5em;
     }
 }
+
 @media (max-width: 475px) {
     .title-home-V{
         text-align: center;
     }
+}
 
+@media (max-width: 310px) {
+    .home-container{
+        justify-content: space-evenly;
+    }
+    .title-home-V{
+        font-size: x-large
+    }
+    .title-home{
+        font-size: x-large
+    }
+    .button-56{
+        font-size: larger;
+        padding: .5rem;
+    }
 }
