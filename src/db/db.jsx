@@ -56,8 +56,11 @@ import vCard60 from '../assets/60.webp'
 import vCard61 from '../assets/61.webp'
 import vCard62 from '../assets/62.webp'
 import vCard64 from '../assets/64.webp'
-import vCard65 from '../assets/65.webp'
-import vCard66 from '../assets/66.webp'
+import vCard68 from '../assets/68.webp'
+import vCard70 from '../assets/70.webp'
+import vCard71 from '../assets/71.webp'
+import vCard73 from '../assets/73.webp'
+import vCard74 from '../assets/74.webp'
 
 const DUMMY_ARTS = [
     {
@@ -554,7 +557,7 @@ const DUMMY_ARTS = [
         img: vCard60,
         isSold: 0,
         url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/60",
-        eds: 0
+        eds: 6
     },
     {
         id: 61,
@@ -563,7 +566,7 @@ const DUMMY_ARTS = [
         img: vCard61,
         isSold: 0,
         url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/61",
-        eds: 0
+        eds: 7
     },
     {
         id: 62,
@@ -572,35 +575,89 @@ const DUMMY_ARTS = [
         img: vCard62,
         isSold: 0,
         url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/62",
-        eds: 0
+        eds: 11
     },
     {
         id: 64,
-        title: "ICEBERG PEPE | SPECIAL EDITION",
+        title: "Iceberg Pepe - SPECIAL EDITION",
         artist: "40200Quadrillions666",
         img: vCard64,
         isSold: 0,
         url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/64",
-        eds: 0
+        eds: 10
     },
     {
-        id: 65,
-        title: "EZIAHAKAEGO",
-        artist: "Butu",
-        img: vCard65,
+        id: 68,
+        title: "Don Roberto",
+        artist: "Don Roberto",
+        img: vCard68,
         isSold: 0,
-        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/65",
-        eds: 0
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/68",
+        eds: 10
     },
     {
-        id: 66,
-        title: "OMEOKACHI",
-        artist: "Butu",
-        img: vCard66,
+        id: 70,
+        title: "Support",
+        artist: "Don Roberto",
+        img: vCard70,
         isSold: 0,
-        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/66",
-        eds: 0
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/70",
+        eds: 15
+    },
+    {
+        id: 71,
+        title: "Don Roberto & the Muse",
+        artist: "Don Roberto",
+        img: vCard71,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/71",
+        eds: 5
+    },
+    {
+        id: 73,
+        title: "Eziahakaego",
+        artist: "Butu",
+        img: vCard73,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/73",
+        eds: 5
+    },
+    {
+        id: 74,
+        title: "Omeokachi",
+        artist: "Butu",
+        img: vCard74,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/74",
+        eds: 5
     },
   ];
+
+  // 1. Total de artistas diferentes
+const totalArtists = [...new Set(DUMMY_ARTS.map(art => art.artist))].length;
+
+// 2. Total de obras (Algunas están salteadas. por ej: 51, 52, 58...)
+const totalWorks = DUMMY_ARTS.length;
+
+// 3. Obras por artista
+const worksByArtist = DUMMY_ARTS.reduce((acc, art) => {
+    acc[art.artist] = (acc[art.artist] || 0) + 1;
+    return acc;
+}, {});
+
+// 4. Total de eds
+const totalEds = DUMMY_ARTS.reduce((acc, art) => acc + art.eds, 0);
+
+// 5. Eds por artista
+const edsByArtist = DUMMY_ARTS.reduce((acc, art) => {
+    acc[art.artist] = (acc[art.artist] || 0) + art.eds;
+    return acc;
+}, {});
+
+console.log("1. Total de artistas diferentes:", totalArtists);
+console.log("2. Total de obras:", totalWorks);
+console.log("3. Obras por artista:", worksByArtist);
+console.log("4. Total de eds:", totalEds);
+console.log("5. Eds por artista:", edsByArtist);
 
   export default DUMMY_ARTS

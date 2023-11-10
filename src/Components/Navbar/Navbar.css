@@ -47,6 +47,10 @@
     height: 100%;
 }
   
+.menu-icon {
+    padding: 0 1rem;
+}
+  
 
 .navbar-item a {
     text-decoration: none;
@@ -55,11 +59,10 @@
     transition: color 0.3s;
 }
 
-
 .logo {
-    height: 7vh;
+    padding: .5rem;
+    height: 6vh;
 }
-
 
 .logo:hover {
     transition: all .5s;
@@ -86,7 +89,7 @@
 
 @media (max-width:600px) {
     .navbar{
-        padding: 0;
+        padding: .5rem 0;
         font-size: x-large;
     }
     .navbar-list{
@@ -113,27 +116,24 @@
     align-items: center;
     justify-content: space-between;
     background-color: #7c2c27;
-    top: 50%; /* Ajustar la posición verticalmente */
-    right: 20px; /* Ajustar la posición horizontalmente */
 }
   
   /* Mostrar el menú hamburguesa en pantallas pequeñas */
   @media (max-width: 600px) {
     .menu-button {
       display: flex;
-
     }
     
   
     .navbar-list {
       display: none;
       position: absolute;
-      top: 60px;
-      right: 20px;
+      top: 8vh;
+      right: 0px;
       background-color: #7c2c27;
       flex-direction: column;
       border-radius: 5px;
-      padding: 10px;
+      padding: 1rem;
       z-index: 1;
     }
   
