@@ -47,6 +47,17 @@ import vCard46 from '../assets/46.webp'
 import vCard47 from '../assets/47.webp'
 import vCard48 from '../assets/48.webp'
 import vCard49 from '../assets/49.webp'
+import vCard50 from '../assets/50.webp'
+import vCard51 from '../assets/51.webp'
+import vCard52 from '../assets/52.webp'
+import vCard58 from '../assets/58.webp'
+import vCard59 from '../assets/59.webp'
+import vCard60 from '../assets/60.webp'
+import vCard61 from '../assets/61.webp'
+import vCard62 from '../assets/62.webp'
+import vCard64 from '../assets/64.webp'
+import vCard65 from '../assets/65.webp'
+import vCard66 from '../assets/66.webp'
 
 const DUMMY_ARTS = [
     {
@@ -490,6 +501,105 @@ const DUMMY_ARTS = [
         isSold: 0,
         url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/49",
         eds: 5
+    },
+    {
+        id: 50,
+        title: "GANGVLING",
+        artist: "puromay",
+        img: vCard50,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/50",
+        eds: 5
+    },
+    {
+        id: 51,
+        title: "PANTHERA",
+        artist: "puromay",
+        img: vCard51,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/51",
+        eds: 15
+    },
+    {
+        id: 52,
+        title: "V MONKEY",
+        artist: "puromay",
+        img: vCard52,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/52",
+        eds: 10
+    },
+    {
+        id: 58,
+        title: "Ultra Doomed Edition One",
+        artist: "40200Quadrillions666",
+        img: vCard58,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/58",
+        eds: 6
+    },
+    {
+        id: 59,
+        title: "Ultra Doomed Edition Two",
+        artist: "40200Quadrillions666",
+        img: vCard59,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/59",
+        eds: 6
+    },
+    {
+        id: 60,
+        title: "Ultra Doomed Edition Three",
+        artist: "40200Quadrillions666",
+        img: vCard60,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/60",
+        eds: 0
+    },
+    {
+        id: 61,
+        title: "Ultra Doomed Edition Four",
+        artist: "40200Quadrillions666",
+        img: vCard61,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/61",
+        eds: 0
+    },
+    {
+        id: 62,
+        title: "Teardrop",
+        artist: "40200Quadrillions666",
+        img: vCard62,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/62",
+        eds: 0
+    },
+    {
+        id: 64,
+        title: "ICEBERG PEPE | SPECIAL EDITION",
+        artist: "40200Quadrillions666",
+        img: vCard64,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/64",
+        eds: 0
+    },
+    {
+        id: 65,
+        title: "EZIAHAKAEGO",
+        artist: "Butu",
+        img: vCard65,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/65",
+        eds: 0
+    },
+    {
+        id: 66,
+        title: "OMEOKACHI",
+        artist: "Butu",
+        img: vCard66,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/66",
+        eds: 0
     },
   ];
 

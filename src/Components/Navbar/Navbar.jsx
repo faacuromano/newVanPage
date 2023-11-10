@@ -13,12 +13,9 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar">
-        <ul className="navbar-logo">
           <a className="navbar-item" href="/">
             <img className="logo" src={logo} alt="Logo" />
-            <h2 className="title-logo">ANGUARD</h2>
           </a>
-        </ul>
         <div className={`navbar-list ${isMenuOpen ? 'active' : ''}`}>
           <div className="navbar-item"><a id="right-navbar-items" href="/#artworks">Artworks</a></div>
           <div className="navbar-item"><a id="right-navbar-items" href="/#about">About</a></div>

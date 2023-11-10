@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,700&display=swap');
-*{ font-family: 'Roboto Flex', sans-serif; }
+
 
 .navbar {
-    font-size: xx-large;
     display: flex;
     height: 7vh;
     background-color: #7c2c27;
     justify-content: space-between;
-    padding: 0 3em;
+    width: 100%;
 }
 .title-logo{
     color: rgb(238, 238, 238);
@@ -56,12 +55,9 @@
     transition: color 0.3s;
 }
 
-.textLogo{
-    display: none;
-}
 
 .logo {
-    height: 80%;
+    height: 7vh;
 }
 
 
@@ -71,9 +67,6 @@
     transform: rotateZ(-90deg);
     transform-origin: 50% 50%;
     scale: 1.1;
-    .textLogo{
-        display: block;
-    }
 }
 
 @media (max-width:1000px) {
@@ -99,6 +92,10 @@
     .navbar-list{
         display: none;
     }
+    .navbar-item{
+        margin: 0;
+        padding:0;
+    }
 }
 
 @media (max-width:290px) {
@@ -113,30 +110,18 @@
 /* Agregar estilos para el menú hamburguesa */
 .menu-button {
     display: none;
-    cursor: pointer;
     align-items: center;
     justify-content: space-between;
-    width: 40px;
-    height: 40px;
     background-color: #7c2c27;
-    border-radius: 50%;
-  }
+    top: 50%; /* Ajustar la posición verticalmente */
+    right: 20px; /* Ajustar la posición horizontalmente */
+}
   
-  .menu-icon {
-    display: flex;
-    transition: transform 0.3s;
-  }
-  
-  .menu-icon.active {
-    transform: rotate(90deg);
-  }
   /* Mostrar el menú hamburguesa en pantallas pequeñas */
   @media (max-width: 600px) {
     .menu-button {
       display: flex;
-      height: 100%;
-      justify-content: center;
-      align-items: center;
+
     }
     
   
