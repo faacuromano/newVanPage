@@ -61,6 +61,9 @@ import vCard70 from '../assets/70.webp'
 import vCard71 from '../assets/71.webp'
 import vCard73 from '../assets/73.webp'
 import vCard74 from '../assets/74.webp'
+import vCard75 from '../assets/75.webp'
+import vCard76 from '../assets/76.webp'
+import vCard77 from '../assets/77.webp'
 
 const DUMMY_ARTS = [
     {
@@ -630,6 +633,33 @@ const DUMMY_ARTS = [
         isSold: 0,
         url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/74",
         eds: 5
+    },
+    {
+        id: 75,
+        title: "RVSTIC 1",
+        artist: "RusticDigitalArt",
+        img: vCard75,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/75",
+        eds: 10
+    },
+    {
+        id: 76,
+        title: "RVSTIC 2",
+        artist: "RusticDigitalArt",
+        img: vCard76,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/76",
+        eds: 10
+    },
+    {
+        id: 77,
+        title: "CRISTOBAL AND THE KRUH'GAS",
+        artist: "RusticDigitalArt",
+        img: vCard77,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/77",
+        eds: 10
     },
   ];
 
