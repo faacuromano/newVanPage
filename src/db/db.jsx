@@ -64,6 +64,12 @@ import vCard74 from '../assets/74.webp'
 import vCard75 from '../assets/75.webp'
 import vCard76 from '../assets/76.webp'
 import vCard77 from '../assets/77.webp'
+import vCard80 from '../assets/80.webp'
+import vCard81 from '../assets/81.webp'
+import vCard82 from '../assets/82.webp'
+import vCard83 from '../assets/83.webp'
+import vCard84 from '../assets/84.webp'
+import vCard85 from '../assets/85.webp'
 
 const DUMMY_ARTS = [
     {
@@ -661,6 +667,61 @@ const DUMMY_ARTS = [
         url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/77",
         eds: 10
     },
+    {
+        id: 80,
+        title: "V Hooper",
+        artist: "ELOJOENLAFLOR",
+        img: vCard80,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/80",
+        eds: 10
+    },
+    {
+        id: 81,
+        title: "The Vanguard Contra los Monstruos",
+        artist: "ELOJOENLAFLOR",
+        img: vCard81,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/81",
+        eds: 15
+    },
+    {
+        id: 82,
+        title: "Hype Killers",
+        artist: "ELOJOENLAFLOR - Wasteman Goldmineovich",
+        img: vCard82,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/82",
+        eds: 15
+    },
+    {
+        id: 83,
+        title: "COCHINERIA 3",
+        artist: "ELOJOENLAFLOR",
+        img: vCard83,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/83",
+        eds: 5
+    },
+    {
+        id: 84,
+        title: "EIFVILLAIN",
+        artist: "ELOJOENLAFLOR",
+        img: vCard84,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/84",
+        eds: 10
+    },
+    {
+        id: 85,
+        title: "VanguardVerse",
+        artist: "ELOJOENLAFLOR",
+        img: vCard85,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/85",
+        eds: 5
+    },
+
   ];
 
   // 1. Total de artistas diferentes
