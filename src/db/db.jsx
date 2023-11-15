@@ -70,6 +70,10 @@ import vCard82 from '../assets/82.webp'
 import vCard83 from '../assets/83.webp'
 import vCard84 from '../assets/84.webp'
 import vCard85 from '../assets/85.webp'
+import vCard86 from '../assets/86.webp'
+import vCard87 from '../assets/87.webp'
+import vCard88 from '../assets/88.webp'
+import vCard89 from '../assets/89.webp'
 
 const DUMMY_ARTS = [
     {
@@ -720,6 +724,42 @@ const DUMMY_ARTS = [
         isSold: 0,
         url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/85",
         eds: 5
+    },
+    {
+        id: 86,
+        title: "PEPO KO",
+        artist: "Br11 ⁂",
+        img: vCard86,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/86",
+        eds: 15
+    },
+    {
+        id: 87,
+        title: "Vanana - The Vanguard Samurai",
+        artist: "Br11 ⁂",
+        img: vCard87,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/87",
+        eds: 5
+    },
+    {
+        id: 88,
+        title: "Vanana Samurai - Harakiri",
+        artist: "Br11 ⁂",
+        img: vCard88,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/88",
+        eds: 10
+    },
+    {
+        id: 89,
+        title: "The Man, The Myth, The Vanguard",
+        artist: "The Myth",
+        img: vCard89,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/89",
+        eds: 15
     },
 
   ];
