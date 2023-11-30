@@ -3,8 +3,27 @@ import './About.css'
 const About = () => {
   return (
     <div className="about-container">
-        <h1 className="about-title"> What is the Vanguard Collection?</h1>
-        <p className="about-description"> Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
+
+      <div className='background'>
+        <h1 className="about-title"> THE VANGUARD</h1>
+        <hr></hr>
+
+        <p className="about-description">
+          The Vanguard, or “The V”, is a collective of artists and collectors from across the globe. 
+          Our mission is to support each other as we navigate these early Web3 days where the old rules and ways most likely no longer apply.
+        </p>
+      </div>
+      
+      <div className='background'>
+        <h1 className="about-title"> THE VANGUARD CARDS</h1>
+        <hr></hr>
+        <p className="about-description">
+          The Vanguard Cards is a collaborative effort from the Vanguard collective. 
+          These trading cards were created over the course of 2022 and 2023 to showcase the wealth of talent within the V. 
+          We are pleased to work with the Tezos Vending Machine to bring this collection to the market. Got to collect ‘em all!
+        </p>
+      </div>
+        
     </div>
   )
 }

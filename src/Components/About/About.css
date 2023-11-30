@@ -3,14 +3,26 @@
     height: 90vh;
 }
 .about-title{
-    padding-bottom: 3rem;
+    font-size: 2.5rem;
+}
+.about-description{
+    padding-bottom: 5rem;
+    padding-top: 1.5rem;
+    font-size: 2rem;
 }
 
+
 @media (max-width: 840px) {
-    .about-title{
-        font-size: 2.5rem;
+    .about-description{
+        font-size: 1.5rem;
     }
 }
+@media (max-width: 840px) {
+    .about-title{
+        font-size: 2rem;
+    }
+}
+
 
 @media (max-width: 450px) {
     .about-title{
@@ -23,7 +35,7 @@
 
 @media (max-width: 400px) {
     .about-title{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .about-description{
         font-size: .8rem;
