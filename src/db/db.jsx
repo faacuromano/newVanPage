@@ -74,6 +74,20 @@ import vCard86 from '../assets/86.webp'
 import vCard87 from '../assets/87.webp'
 import vCard88 from '../assets/88.webp'
 import vCard89 from '../assets/89.webp'
+import vCard90 from '../assets/90.webp'
+import vCard91 from '../assets/91.webp'
+import vCard92 from '../assets/92.webp'
+import vCard93 from '../assets/93.webp'
+import vCard94 from '../assets/94.webp'
+import vCard95 from '../assets/95.webp'
+import vCard96 from '../assets/96.webp'
+import vCard97 from '../assets/97.webp'
+import vCard99 from '../assets/99.webp'
+import vCard101 from '../assets/101.webp'
+import vCard102 from '../assets/102.webp'
+import vCard103 from '../assets/103.webp'
+import vCard104 from '../assets/104.webp'
+import vCard106 from '../assets/106.webp'
 
 const DUMMY_ARTS = [
     {
@@ -760,6 +774,132 @@ const DUMMY_ARTS = [
         isSold: 0,
         url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/89",
         eds: 15
+    },
+    {
+        id: 90,
+        title: "The Three Graces",
+        artist: "Quilla Nina",
+        img: vCard90,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/90",
+        eds: 15
+    },
+    {
+        id: 91,
+        title: "KHC [JNK & TERRY VISUAL]",
+        artist: "𝙺𝙷𝙲",
+        img: vCard91,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/91",
+        eds: 15
+    },
+    {
+        id: 92,
+        title: "The Fool Artist",
+        artist: "Erick Raymn",
+        img: vCard92,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/92",
+        eds: 10
+    },
+    {
+        id: 93,
+        title: "The Hanged Artist",
+        artist: "Erick Raymn",
+        img: vCard93,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/93",
+        eds: 10
+    },
+    {
+        id: 94,
+        title: "The Magic Artist",
+        artist: "Erick Raymn",
+        img: vCard94,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/94",
+        eds: 10
+    },
+    {
+        id: 95,
+        title: "Nine of Oil Paints",
+        artist: "Erick Raymn",
+        img: vCard95,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/95",
+        eds: 10
+    },
+    {
+        id: 96,
+        title: "Young Conqueror",
+        artist: "fabrii2k",
+        img: vCard96,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/96",
+        eds: 15
+    },
+    {
+        id: 97,
+        title: "No Fear",
+        artist: "fabrii2k",
+        img: vCard97,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/97",
+        eds: 15
+    },
+    {
+        id: 99,
+        title: "Always growing",
+        artist: "Ludmilapandolfo",
+        img: vCard99,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/99",
+        eds: 10
+    },
+    {
+        id: 101,
+        title: "Saint Tezos",
+        artist: "Boston",
+        img: vCard101,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/101",
+        eds: 10
+    },
+    {
+        id: 102,
+        title: "Vanguard Bear",
+        artist: "Ber Sektor",
+        img: vCard102,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/102",
+        eds: 15
+    },
+    {
+        id: 103,
+        title: "11 of Crypto",
+        artist: "Ber Sektor",
+        img: vCard103,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/103",
+        eds: 11
+    },
+    {
+        id: 104,
+        title: "The Blind Snooper",
+        artist: "da täste",
+        img: vCard104,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/104",
+        eds: 15
+    },
+    {
+        id: 106,
+        title: "♦ ACE",
+        artist: "Turamsa",
+        img: vCard106,
+        isSold: 0,
+        url: "https://objkt.com/asset/KT1FiPKiRQ39UJCcixmidYRQtkvnm7peQuYJ/106",
+        eds: 12
     },
 
   ];
